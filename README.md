@@ -1,4 +1,4 @@
-# Taher_Airbnb_SQL_Phase2
+# Airbnb Booking Data Mart
 
 Portfolio project for IU course **DLBDSPBDM01 - Build a Data Mart in SQL**.
 
