@@ -41,11 +41,11 @@ The full run script uses MySQL client `SOURCE` commands, so run it from the proj
 
 ## What Is Included
 
-- Normalized Airbnb-style schema for hosts, guests, listings, bookings, payments, reviews, amenities, and service requests.
+- Normalized Airbnb-style schema for users, profiles, addresses, listings, rooms, bookings, payments, and social connections.
 - Explicit PK/FK constraints with named relationships.
 - `CHECK` constraints for business rules such as valid ratings, positive prices, valid statuses, and valid date ranges.
 - Multiple `ON DELETE` behaviors: `RESTRICT`, `CASCADE`, and `SET NULL`.
-- A documented ternary relationship: `booking_service_requests`, connecting one booking, one guest, and one service type.
+- A documented ternary relationship: `booking_room_guests`, connecting one booking, one room, and one guest user.
 - Dummy data for realistic query outputs.
 - Validation queries for data quality and relationship checks.
 - Business queries using multi-table joins, aggregations, CTEs, and the ternary relationship.

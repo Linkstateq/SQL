@@ -62,20 +62,42 @@ SHOW TABLES;
 Expected tables include:
 
 ```text
-amenities
-booking_guests
-booking_service_requests
-bookings
-guests
-host_payouts
-hosts
-listing_amenities
-listings
-locations
-payments
+users
+user_profiles
+host_profiles
+guest_profiles
+countries
+cities
+addresses
+identity_documents
+social_accounts
 property_types
+cancellation_policies
+listings
+listing_photos
+rooms
+amenities
+listing_amenities
+room_amenities
+house_rules
+availability_calendar
+bookings
+booking_room_guests
+payment_methods
+payments
+host_payouts
+refunds
+listing_cancellation_policies
 reviews
-service_types
+review_categories
+review_scores
+messages
+support_tickets
+support_ticket_messages
+platform_commissions
+income_estimates
+social_connections
+social_review_visibility
 ```
 
 ## 6. Common Troubleshooting
