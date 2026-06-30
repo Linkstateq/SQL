@@ -2,7 +2,7 @@
 -- Purpose: Advanced business reporting and relationship queries for the complete
 -- Airbnb-style Phase 2 MySQL database.
 
-USE airbnb_booking_phase2;
+USE airbnb_sql_data_mart;
 
 -- Query title:
 -- 1. Complete booking workflow query

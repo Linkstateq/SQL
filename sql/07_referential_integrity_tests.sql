@@ -7,7 +7,7 @@
 -- Tests 7 and 8 are safe to run automatically because they use transactions and
 -- ROLLBACK, so 08_full_run.sql will not fail or leave test data behind.
 
-USE airbnb_booking_phase2;
+USE airbnb_sql_data_mart;
 
 -- Test name:
 -- 1. CHECK constraint test for invalid booking dates

@@ -110,7 +110,7 @@ The index script adds performance-focused indexes for common portfolio queries:
 
 These indexes support the validation and business queries in `05_validation_queries.sql` and `06_business_queries.sql`.
 
-## 7. Dummy Data Summary
+## 7. Dataset Overview
 
 The dummy dataset includes:
 

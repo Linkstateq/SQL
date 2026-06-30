@@ -3,13 +3,13 @@
 --
 -- MySQL Workbench instructions:
 -- 1. Open MySQL Workbench and connect to your MySQL 8.0 server.
--- 2. Open this file from the project root folder: Taher_Airbnb_SQL_Phase2/sql/08_full_run.sql.
+-- 2. Open this file from the project root folder: airbnb-sql-data-mart/sql/08_full_run.sql.
 -- 3. Make sure the project root is the working directory for SOURCE path resolution.
 -- 4. Run the full script, not only the current statement.
 -- 5. If Workbench cannot resolve relative SOURCE paths, open and run files 00 through 06 manually in the order below.
 --
 -- MySQL command-line instructions:
--- From the Taher_Airbnb_SQL_Phase2 project root folder, run:
+-- From the airbnb-sql-data-mart project root folder, run:
 -- mysql -u root -p < sql/08_full_run.sql
 -- If the mysql client cannot resolve source paths in your terminal, run files
 -- 00 through 06 manually in the same order shown below.

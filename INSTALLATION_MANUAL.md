@@ -12,7 +12,7 @@ This project uses MySQL 8.0 features such as enforced `CHECK` constraints, gener
 
 1. Open VS Code.
 2. Select **File > Open Folder**.
-3. Choose the folder `Taher_Airbnb_SQL_Phase2`.
+3. Choose the folder `airbnb-sql-data-mart`.
 
 ## 3. Recommended Full Installation Using MySQL CLI
 
@@ -26,7 +26,7 @@ When prompted, enter the MySQL password for the selected user.
 
 The script performs the following steps:
 
-1. Drops any previous copy of `taher_airbnb_sql_phase2`.
+1. Drops any previous copy of `airbnb_sql_data_mart`.
 2. Creates a fresh database.
 3. Creates all tables with PK, FK, `CHECK`, and `ON DELETE` rules.
 4. Inserts dummy data.
@@ -55,7 +55,7 @@ sql/07_referential_integrity_tests.sql
 After installation, run:
 
 ```sql
-USE taher_airbnb_sql_phase2;
+USE airbnb_sql_data_mart;
 SHOW TABLES;
 ```
 
@@ -107,7 +107,7 @@ social_review_visibility
 Run the full script from the project root folder:
 
 ```bash
-cd Taher_Airbnb_SQL_Phase2
+cd airbnb-sql-data-mart
 mysql -u root -p < sql/08_full_run.sql
 ```
 

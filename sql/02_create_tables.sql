@@ -4,7 +4,7 @@
 -- The schema includes explicit primary keys, foreign keys, UNIQUE constraints,
 -- CHECK constraints, ENUM status fields, and documented ON DELETE/ON UPDATE rules.
 
-USE airbnb_booking_phase2;
+USE airbnb_sql_data_mart;
 
 -- Entity purpose: Stores platform login accounts for guests, hosts, admins, and support agents.
 -- Key attributes: email, password hash, role, account status, and timestamps.

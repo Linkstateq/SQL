@@ -3,7 +3,7 @@
 -- accommodation booking workflow. The data is inserted in foreign-key order.
 -- Every table receives at least 20 rows. The final SELECT section proves row counts.
 
-USE airbnb_booking_phase2;
+USE airbnb_sql_data_mart;
 
 -- Insert users
 -- Users cover all platform roles: guests, hosts, admins, and support agents.

@@ -4,4 +4,4 @@
 -- indexes, or sample data cannot affect the result of the current build.
 -- Warning: This permanently deletes the database named below.
 
-DROP DATABASE IF EXISTS airbnb_booking_phase2;
+DROP DATABASE IF EXISTS airbnb_sql_data_mart;

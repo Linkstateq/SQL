@@ -4,7 +4,7 @@
 -- requested index is already covered by a primary or unique key, this file documents
 -- that coverage instead of creating a duplicate index.
 
-USE airbnb_booking_phase2;
+USE airbnb_sql_data_mart;
 
 -- Users: email lookup for login is already indexed by UNIQUE constraint uq_users_email.
 -- No duplicate email index is created because the unique key supports exact email searches.

@@ -7,7 +7,7 @@ This project implements an Airbnb-style accommodation booking database in MySQL 
 ## Project Structure
 
 ```text
-Taher_Airbnb_SQL_Phase2/
+airbnb-sql-data-mart/
   README.md
   INSTALLATION_MANUAL.md
   DATABASE_DOCUMENTATION.md
@@ -26,10 +26,10 @@ Taher_Airbnb_SQL_Phase2/
 ## Database Name
 
 ```sql
-taher_airbnb_sql_phase2
+airbnb_sql_data_mart
 ```
 
-## Quick Start
+## Getting Started
 
 Open a terminal from the project root and run:
 
@@ -39,7 +39,7 @@ mysql -u root -p < sql/08_full_run.sql
 
 The full run script uses MySQL client `SOURCE` commands, so run it from the project root folder. It recreates the database from scratch, inserts sample records, creates indexes, and runs validation, business, and integrity test queries.
 
-## What Is Included
+## Project Features
 
 - Normalized Airbnb-style schema for users, profiles, addresses, listings, rooms, bookings, payments, and social connections.
 - Explicit PK/FK constraints with named relationships.

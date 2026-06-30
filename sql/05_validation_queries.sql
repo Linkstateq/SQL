@@ -2,7 +2,7 @@
 -- File purpose: Prove that the Airbnb-style Phase 2 database is populated correctly
 -- and that core relationships, reporting joins, and data quality rules work.
 
-USE airbnb_booking_phase2;
+USE airbnb_sql_data_mart;
 
 -- Purpose:
 -- Count rows in every table to prove the dummy data loaded successfully.
