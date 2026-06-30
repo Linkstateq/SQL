@@ -1,0 +1,316 @@
+booking_id	guest_name	host_name	listing_title	city	country	check_in_date	check_out_date	booking_status	payment_status	payment_amount	total_platform_commission	host_payout_status
+1	Aarav Sharma	Anil Gupta	Kolkata Park Street Heritage Apartment	Kolkata	India	2026-01-10	2026-01-13	completed	paid	15300.00	2340.00	released
+2	Priya Banerjee	Sunita Rao	Delhi Hauz Khas Private Room	Delhi	India	2026-01-12	2026-01-15	completed	paid	9500.00	1436.00	released
+3	Rohan Mehta	Imran Sheikh	Mumbai Bandra Sea View Studio	Mumbai	India	2026-02-05	2026-02-08	completed	paid	23600.00	3440.00	released
+4	Ananya Iyer	Kavya Reddy	Bangalore Indiranagar Workstay	Bangalore	India	2026-02-12	2026-02-16	completed	paid	23300.00	3332.00	released
+5	Kabir Khan	Mario Fernandes	Goa Candolim Pool Villa	Goa	India	2026-03-01	2026-03-05	completed	paid	53200.00	7120.00	released
+6	Neha Das	Hanna Schmidt	Berlin Prenzlauer Loft	Berlin	Germany	2026-03-10	2026-03-13	completed	paid	35100.00	4860.00	released
+7	Vivaan Kapoor	Thomas Bauer	Munich Schwabing Apartment	Munich	Germany	2026-04-03	2026-04-06	completed	paid	32700.00	4476.00	released
+8	Meera Nair	Camille Martin	Paris Marais Design Studio	Paris	France	2026-04-15	2026-04-18	completed	paid	38400.00	5280.00	released
+9	Arjun Sen	James Turner	London Camden Townhouse Room	London	United Kingdom	2026-05-02	2026-05-05	completed	paid	30700.00	4204.00	released
+10	Sara Wilson	Layla Alfarsi	Dubai Marina High Floor Condo	Dubai	United Arab Emirates	2026-05-18	2026-05-22	completed	paid	59700.00	7860.00	released
+11	Lukas Meyer	Olivia Carter	New York SoHo Loft	New York	United States	2026-06-05	2026-06-09	confirmed	paid	72600.00	9240.00	pending
+12	Emma Fischer	Kenji Sato	Tokyo Shinjuku Compact Studio	Tokyo	Japan	2026-06-20	2026-06-24	confirmed	pending	39000.00	5208.00	pending
+13	Claire Dubois	Siti Rahman	Singapore Tanjong Pagar Suite	Singapore	Singapore	2026-07-02	2026-07-06	confirmed	paid	55200.00	7200.00	pending
+14	Oliver Smith	Liam Connor	Sydney Circular Quay Penthouse	Sydney	Australia	2026-07-15	2026-07-19	pending	pending	92400.00	11760.00	pending
+15	Fatima Mansoori	Emily Clark	Toronto King West Condo	Toronto	Canada	2026-07-21	2026-07-24	pending	failed	31500.00	4140.00	pending
+16	Daniel Johnson	Noor Ahmed	Amsterdam Canal Heritage Home	Amsterdam	Netherlands	2026-08-03	2026-08-07	cancelled	refunded	64000.00	8320.00	failed
+17	Yuki Tanaka	Anil Gupta	Kolkata Park Street Heritage Apartment	Kolkata	India	2026-08-10	2026-08-13	cancelled	refunded	15300.00	2340.00	failed
+18	Mei Chen	Sunita Rao	Delhi Hauz Khas Private Room	Delhi	India	2026-08-12	2026-08-15	cancelled	refunded	9500.00	1436.00	failed
+19	Sophia Rossi	Imran Sheikh	Mumbai Bandra Sea View Studio	Mumbai	India	2026-09-01	2026-09-04	refunded	refunded	23600.00	3440.00	failed
+20	Noah Brown	Kavya Reddy	Bangalore Indiranagar Workstay	Bangalore	India	2026-09-08	2026-09-12	refunded	refunded	23300.00	3332.00	failed
+listing_id	listing_title	room_id	room_name	room_type	amenity_id	amenity_name	amenity_category
+1	Kolkata Park Street Heritage Apartment	1	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+1	Kolkata Park Street Heritage Apartment	1	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+2	Delhi Hauz Khas Private Room	2	Primary sleeping area	Private bedroom	18	Smart TV	Entertainment
+2	Delhi Hauz Khas Private Room	2	Primary sleeping area	Private bedroom	16	Smoke alarm	Safety
+3	Mumbai Bandra Sea View Studio	3	Primary sleeping area	Studio sleeping area	18	Smart TV	Entertainment
+3	Mumbai Bandra Sea View Studio	3	Primary sleeping area	Studio sleeping area	16	Smoke alarm	Safety
+4	Bangalore Indiranagar Workstay	4	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+4	Bangalore Indiranagar Workstay	4	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+5	Goa Candolim Pool Villa	5	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+5	Goa Candolim Pool Villa	5	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+6	Berlin Prenzlauer Loft	6	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+6	Berlin Prenzlauer Loft	6	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+7	Munich Schwabing Apartment	7	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+7	Munich Schwabing Apartment	7	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+8	Paris Marais Design Studio	8	Primary sleeping area	Studio sleeping area	18	Smart TV	Entertainment
+8	Paris Marais Design Studio	8	Primary sleeping area	Studio sleeping area	16	Smoke alarm	Safety
+9	London Camden Townhouse Room	9	Primary sleeping area	Private bedroom	18	Smart TV	Entertainment
+9	London Camden Townhouse Room	9	Primary sleeping area	Private bedroom	16	Smoke alarm	Safety
+10	Dubai Marina High Floor Condo	10	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+10	Dubai Marina High Floor Condo	10	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+11	New York SoHo Loft	11	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+11	New York SoHo Loft	11	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+12	Tokyo Shinjuku Compact Studio	12	Primary sleeping area	Studio sleeping area	18	Smart TV	Entertainment
+12	Tokyo Shinjuku Compact Studio	12	Primary sleeping area	Studio sleeping area	16	Smoke alarm	Safety
+13	Singapore Tanjong Pagar Suite	13	Primary sleeping area	Private bedroom	18	Smart TV	Entertainment
+13	Singapore Tanjong Pagar Suite	13	Primary sleeping area	Private bedroom	16	Smoke alarm	Safety
+14	Sydney Circular Quay Penthouse	14	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+14	Sydney Circular Quay Penthouse	14	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+15	Toronto King West Condo	15	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+15	Toronto King West Condo	15	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+16	Amsterdam Canal Heritage Home	16	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+16	Amsterdam Canal Heritage Home	16	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+17	Rome Centro Boutique Room	17	Primary sleeping area	Private bedroom	18	Smart TV	Entertainment
+17	Rome Centro Boutique Room	17	Primary sleeping area	Private bedroom	16	Smoke alarm	Safety
+18	Barcelona Eixample Apartment Draft	18	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+18	Barcelona Eixample Apartment Draft	18	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+19	Bangkok Sukhumvit Serviced Room	19	Primary sleeping area	Private bedroom	18	Smart TV	Entertainment
+19	Bangkok Sukhumvit Serviced Room	19	Primary sleeping area	Private bedroom	16	Smoke alarm	Safety
+20	Bali Ubud Garden Villa	20	Primary sleeping area	Main bedroom	18	Smart TV	Entertainment
+20	Bali Ubud Garden Villa	20	Primary sleeping area	Main bedroom	16	Smoke alarm	Safety
+booking_id	listing_title	room_id	assigned_room	assigned_guest_email	assigned_guest_name	check_in_date	check_out_date	booking_status
+1	Kolkata Park Street Heritage Apartment	1	Primary sleeping area	aarav.sharma@example.com	Aarav Sharma	2026-01-10	2026-01-13	completed
+1	Kolkata Park Street Heritage Apartment	1	Primary sleeping area	priya.banerjee@example.com	Priya Banerjee	2026-01-10	2026-01-13	completed
+2	Delhi Hauz Khas Private Room	2	Primary sleeping area	priya.banerjee@example.com	Priya Banerjee	2026-01-12	2026-01-15	completed
+2	Delhi Hauz Khas Private Room	2	Primary sleeping area	rohan.mehta@example.com	Rohan Mehta	2026-01-12	2026-01-15	completed
+3	Mumbai Bandra Sea View Studio	3	Primary sleeping area	ananya.iyer@example.com	Ananya Iyer	2026-02-05	2026-02-08	completed
+3	Mumbai Bandra Sea View Studio	3	Primary sleeping area	rohan.mehta@example.com	Rohan Mehta	2026-02-05	2026-02-08	completed
+4	Bangalore Indiranagar Workstay	4	Primary sleeping area	ananya.iyer@example.com	Ananya Iyer	2026-02-12	2026-02-16	completed
+4	Bangalore Indiranagar Workstay	4	Primary sleeping area	kabir.khan@example.com	Kabir Khan	2026-02-12	2026-02-16	completed
+5	Goa Candolim Pool Villa	5	Primary sleeping area	kabir.khan@example.com	Kabir Khan	2026-03-01	2026-03-05	completed
+5	Goa Candolim Pool Villa	5	Primary sleeping area	neha.das@example.com	Neha Das	2026-03-01	2026-03-05	completed
+6	Berlin Prenzlauer Loft	6	Primary sleeping area	neha.das@example.com	Neha Das	2026-03-10	2026-03-13	completed
+6	Berlin Prenzlauer Loft	6	Primary sleeping area	vivaan.kapoor@example.com	Vivaan Kapoor	2026-03-10	2026-03-13	completed
+7	Munich Schwabing Apartment	7	Primary sleeping area	meera.nair@example.com	Meera Nair	2026-04-03	2026-04-06	completed
+7	Munich Schwabing Apartment	7	Primary sleeping area	vivaan.kapoor@example.com	Vivaan Kapoor	2026-04-03	2026-04-06	completed
+8	Paris Marais Design Studio	8	Primary sleeping area	arjun.sen@example.com	Arjun Sen	2026-04-15	2026-04-18	completed
+8	Paris Marais Design Studio	8	Primary sleeping area	meera.nair@example.com	Meera Nair	2026-04-15	2026-04-18	completed
+9	London Camden Townhouse Room	9	Primary sleeping area	arjun.sen@example.com	Arjun Sen	2026-05-02	2026-05-05	completed
+9	London Camden Townhouse Room	9	Primary sleeping area	sara.wilson@example.com	Sara Wilson	2026-05-02	2026-05-05	completed
+10	Dubai Marina High Floor Condo	10	Primary sleeping area	lukas.meyer@example.com	Lukas Meyer	2026-05-18	2026-05-22	completed
+10	Dubai Marina High Floor Condo	10	Primary sleeping area	sara.wilson@example.com	Sara Wilson	2026-05-18	2026-05-22	completed
+11	New York SoHo Loft	11	Primary sleeping area	lukas.meyer@example.com	Lukas Meyer	2026-06-05	2026-06-09	confirmed
+12	Tokyo Shinjuku Compact Studio	12	Primary sleeping area	emma.fischer@example.com	Emma Fischer	2026-06-20	2026-06-24	confirmed
+13	Singapore Tanjong Pagar Suite	13	Primary sleeping area	claire.dubois@example.com	Claire Dubois	2026-07-02	2026-07-06	confirmed
+14	Sydney Circular Quay Penthouse	14	Primary sleeping area	oliver.smith@example.com	Oliver Smith	2026-07-15	2026-07-19	pending
+15	Toronto King West Condo	15	Primary sleeping area	fatima.mansoori@example.com	Fatima Mansoori	2026-07-21	2026-07-24	pending
+16	Amsterdam Canal Heritage Home	16	Primary sleeping area	daniel.johnson@example.com	Daniel Johnson	2026-08-03	2026-08-07	cancelled
+17	Kolkata Park Street Heritage Apartment	1	Primary sleeping area	yuki.tanaka@example.com	Yuki Tanaka	2026-08-10	2026-08-13	cancelled
+18	Delhi Hauz Khas Private Room	2	Primary sleeping area	mei.chen@example.com	Mei Chen	2026-08-12	2026-08-15	cancelled
+19	Mumbai Bandra Sea View Studio	3	Primary sleeping area	sophia.rossi@example.com	Sophia Rossi	2026-09-01	2026-09-04	refunded
+20	Bangalore Indiranagar Workstay	4	Primary sleeping area	noah.brown@example.com	Noah Brown	2026-09-08	2026-09-12	refunded
+review_id	viewer_email	requester_email	addressee_email	connection_status	viewer_side	can_view	rating	review_text	visibility_reason
+1	anil.gupta.host@example.com	aarav.sharma@example.com	anil.gupta.host@example.com	accepted	addressee	1	5	The apartment was central, clean, and the host gave useful local tips.	Viewer is allowed by the social_review_visibility rule for this connection.
+1	aarav.sharma@example.com	aarav.sharma@example.com	anil.gupta.host@example.com	accepted	requester	1	5	The apartment was central, clean, and the host gave useful local tips.	Viewer is allowed by the social_review_visibility rule for this connection.
+2	sunita.rao.host@example.com	priya.banerjee@example.com	sunita.rao.host@example.com	accepted	addressee	1	4	Good location near Hauz Khas and easy communication with the host.	Viewer is allowed by the social_review_visibility rule for this connection.
+2	priya.banerjee@example.com	priya.banerjee@example.com	sunita.rao.host@example.com	accepted	requester	1	4	Good location near Hauz Khas and easy communication with the host.	Viewer is allowed by the social_review_visibility rule for this connection.
+3	imran.sheikh.host@example.com	rohan.mehta@example.com	imran.sheikh.host@example.com	accepted	addressee	1	5	Sea view and Wi-Fi were both excellent for a short work stay.	Viewer is allowed by the social_review_visibility rule for this connection.
+3	rohan.mehta@example.com	rohan.mehta@example.com	imran.sheikh.host@example.com	accepted	requester	1	5	Sea view and Wi-Fi were both excellent for a short work stay.	Viewer is allowed by the social_review_visibility rule for this connection.
+4	kavya.reddy.host@example.com	ananya.iyer@example.com	kavya.reddy.host@example.com	accepted	addressee	1	5	Workspace, cleaning, and neighborhood access were all strong.	Viewer is allowed by the social_review_visibility rule for this connection.
+4	ananya.iyer@example.com	ananya.iyer@example.com	kavya.reddy.host@example.com	accepted	requester	1	5	Workspace, cleaning, and neighborhood access were all strong.	Viewer is allowed by the social_review_visibility rule for this connection.
+5	mario.fernandes.host@example.com	kabir.khan@example.com	mario.fernandes.host@example.com	accepted	addressee	1	4	Pool villa worked well for the family and beach access was convenient.	Viewer is allowed by the social_review_visibility rule for this connection.
+5	kabir.khan@example.com	kabir.khan@example.com	mario.fernandes.host@example.com	accepted	requester	1	4	Pool villa worked well for the family and beach access was convenient.	Viewer is allowed by the social_review_visibility rule for this connection.
+6	hanna.schmidt.host@example.com	neha.das@example.com	hanna.schmidt.host@example.com	accepted	addressee	1	5	Bright apartment with very responsive hosting.	Viewer is allowed by the social_review_visibility rule for this connection.
+6	neha.das@example.com	neha.das@example.com	hanna.schmidt.host@example.com	accepted	requester	1	5	Bright apartment with very responsive hosting.	Viewer is allowed by the social_review_visibility rule for this connection.
+7	thomas.bauer.host@example.com	vivaan.kapoor@example.com	thomas.bauer.host@example.com	accepted	addressee	1	4	Comfortable apartment and reliable check-in instructions.	Viewer is allowed by the social_review_visibility rule for this connection.
+7	vivaan.kapoor@example.com	vivaan.kapoor@example.com	thomas.bauer.host@example.com	accepted	requester	1	4	Comfortable apartment and reliable check-in instructions.	Viewer is allowed by the social_review_visibility rule for this connection.
+8	camille.martin.host@example.com	meera.nair@example.com	camille.martin.host@example.com	accepted	addressee	1	5	Small but beautifully designed and close to museums.	Viewer is allowed by the social_review_visibility rule for this connection.
+8	meera.nair@example.com	meera.nair@example.com	camille.martin.host@example.com	accepted	requester	1	5	Small but beautifully designed and close to museums.	Viewer is allowed by the social_review_visibility rule for this connection.
+9	james.turner.host@example.com	arjun.sen@example.com	james.turner.host@example.com	accepted	addressee	1	4	The room was simple, clean, and close to markets.	Viewer is allowed by the social_review_visibility rule for this connection.
+9	arjun.sen@example.com	arjun.sen@example.com	james.turner.host@example.com	accepted	requester	1	4	The room was simple, clean, and close to markets.	Viewer is allowed by the social_review_visibility rule for this connection.
+10	layla.alfarsi.host@example.com	sara.wilson@example.com	layla.alfarsi.host@example.com	accepted	addressee	1	5	Beautiful view, smooth building access, and strong amenities.	Viewer is allowed by the social_review_visibility rule for this connection.
+10	sara.wilson@example.com	sara.wilson@example.com	layla.alfarsi.host@example.com	accepted	requester	1	5	Beautiful view, smooth building access, and strong amenities.	Viewer is allowed by the social_review_visibility rule for this connection.
+11	olivia.carter.host@example.com	lukas.meyer@example.com	olivia.carter.host@example.com	pending	addressee	0	5	The host responded quickly and made our group feel welcome.	Viewer is part of the connection but this review is hidden for this side.
+11	lukas.meyer@example.com	lukas.meyer@example.com	olivia.carter.host@example.com	pending	requester	1	5	The host responded quickly and made our group feel welcome.	Viewer is allowed by the social_review_visibility rule for this connection.
+12	kenji.sato.host@example.com	emma.fischer@example.com	kenji.sato.host@example.com	pending	addressee	0	4	Instructions were clear and the room matched the photos.	Viewer is part of the connection but this review is hidden for this side.
+12	emma.fischer@example.com	emma.fischer@example.com	kenji.sato.host@example.com	pending	requester	1	4	Instructions were clear and the room matched the photos.	Viewer is allowed by the social_review_visibility rule for this connection.
+13	siti.rahman.host@example.com	claire.dubois@example.com	siti.rahman.host@example.com	accepted	addressee	1	5	Quiet, clean, and well connected to Bandra.	Viewer is allowed by the social_review_visibility rule for this connection.
+13	claire.dubois@example.com	claire.dubois@example.com	siti.rahman.host@example.com	accepted	requester	1	5	Quiet, clean, and well connected to Bandra.	Viewer is allowed by the social_review_visibility rule for this connection.
+14	liam.connor.host@example.com	oliver.smith@example.com	liam.connor.host@example.com	pending	addressee	0	5	Kavya checked in during the stay and resolved a small Wi-Fi question quickly.	Viewer is part of the connection but this review is hidden for this side.
+14	oliver.smith@example.com	oliver.smith@example.com	liam.connor.host@example.com	pending	requester	1	5	Kavya checked in during the stay and resolved a small Wi-Fi question quickly.	Viewer is allowed by the social_review_visibility rule for this connection.
+15	emily.clark.host@example.com	fatima.mansoori@example.com	emily.clark.host@example.com	accepted	addressee	1	4	Great pool and helpful suggestions for local food.	Viewer is allowed by the social_review_visibility rule for this connection.
+15	fatima.mansoori@example.com	fatima.mansoori@example.com	emily.clark.host@example.com	accepted	requester	1	4	Great pool and helpful suggestions for local food.	Viewer is allowed by the social_review_visibility rule for this connection.
+16	noor.ahmed.host@example.com	daniel.johnson@example.com	noor.ahmed.host@example.com	blocked	addressee	0	5	Good public transport and a stylish apartment.	Connection is blocked, so visibility is disabled or limited.
+16	daniel.johnson@example.com	daniel.johnson@example.com	noor.ahmed.host@example.com	blocked	requester	0	5	Good public transport and a stylish apartment.	Connection is blocked, so visibility is disabled or limited.
+17	giulia.bianchi.host@example.com	yuki.tanaka@example.com	giulia.bianchi.host@example.com	accepted	addressee	1	4	Good kitchen setup and enough space for three guests.	Viewer is allowed by the social_review_visibility rule for this connection.
+17	yuki.tanaka@example.com	yuki.tanaka@example.com	giulia.bianchi.host@example.com	accepted	requester	1	4	Good kitchen setup and enough space for three guests.	Viewer is allowed by the social_review_visibility rule for this connection.
+18	diego.martinez.host@example.com	mei.chen@example.com	diego.martinez.host@example.com	pending	addressee	0	5	The studio had thoughtful design details and felt secure.	Viewer is part of the connection but this review is hidden for this side.
+18	mei.chen@example.com	mei.chen@example.com	diego.martinez.host@example.com	pending	requester	1	5	The studio had thoughtful design details and felt secure.	Viewer is allowed by the social_review_visibility rule for this connection.
+19	niran.chai.host@example.com	sophia.rossi@example.com	niran.chai.host@example.com	accepted	addressee	1	4	Good value for the location and easy access to the Tube.	Viewer is allowed by the social_review_visibility rule for this connection.
+19	sophia.rossi@example.com	sophia.rossi@example.com	niran.chai.host@example.com	accepted	requester	1	4	Good value for the location and easy access to the Tube.	Viewer is allowed by the social_review_visibility rule for this connection.
+20	made.wijaya.host@example.com	noah.brown@example.com	made.wijaya.host@example.com	accepted	addressee	1	5	The gym and marina location made the stay memorable.	Viewer is allowed by the social_review_visibility rule for this connection.
+20	noah.brown@example.com	noah.brown@example.com	made.wijaya.host@example.com	accepted	requester	1	5	The gym and marina location made the stay memorable.	Viewer is allowed by the social_review_visibility rule for this connection.
+host_user_id	host_display_name	host_name	completed_stays	completed_booking_value	total_host_service_fee	total_payout_amount
+30	Layla Dubai Marina Stays	Layla Alfarsi	1	59700.00	2160.00	51840.00
+25	Mario Goa Villas	Mario Fernandes	1	53200.00	1920.00	46080.00
+28	Camille Paris Studios	Camille Martin	1	38400.00	1380.00	33120.00
+26	Hanna Berlin Apartments	Hanna Schmidt	1	35100.00	1260.00	30240.00
+27	Thomas Munich Guest Homes	Thomas Bauer	1	32700.00	1176.00	28224.00
+29	James London Lets	James Turner	1	30700.00	1104.00	26496.00
+23	Imran Mumbai Homes	Imran Sheikh	1	23600.00	840.00	20160.00
+24	Kavya Workstay Bangalore	Kavya Reddy	1	23300.00	832.00	19968.00
+21	Anil Kolkata Stays	Anil Gupta	1	15300.00	540.00	12960.00
+22	Sunita Delhi Rooms	Sunita Rao	1	9500.00	336.00	8064.00
+31	Olivia NYC Lofts	Olivia Carter	0	0.00	0.00	0.00
+32	Kenji Tokyo Homes	Kenji Sato	0	0.00	0.00	0.00
+33	Siti Singapore Stays	Siti Rahman	0	0.00	0.00	0.00
+34	Liam Sydney Harbor Homes	Liam Connor	0	0.00	0.00	0.00
+35	Emily Toronto Condos	Emily Clark	0	0.00	0.00	0.00
+36	Noor Amsterdam Canals	Noor Ahmed	0	0.00	0.00	0.00
+37	Giulia Rome Rooms	Giulia Bianchi	0	0.00	0.00	0.00
+38	Diego Barcelona Homes	Diego Martinez	0	0.00	0.00	0.00
+39	Niran Bangkok Serviced Stays	Niran Chai	0	0.00	0.00	0.00
+40	Made Bali Garden Villas	Made Wijaya	0	0.00	0.00	0.00
+guest_user_id	guest_email	guest_name	paid_payment_count	total_paid_amount
+11	lukas.meyer@example.com	Lukas Meyer	1	72600.00
+10	sara.wilson@example.com	Sara Wilson	1	59700.00
+13	claire.dubois@example.com	Claire Dubois	1	55200.00
+5	kabir.khan@example.com	Kabir Khan	1	53200.00
+8	meera.nair@example.com	Meera Nair	1	38400.00
+6	neha.das@example.com	Neha Das	1	35100.00
+7	vivaan.kapoor@example.com	Vivaan Kapoor	1	32700.00
+9	arjun.sen@example.com	Arjun Sen	1	30700.00
+3	rohan.mehta@example.com	Rohan Mehta	1	23600.00
+4	ananya.iyer@example.com	Ananya Iyer	1	23300.00
+1	aarav.sharma@example.com	Aarav Sharma	1	15300.00
+2	priya.banerjee@example.com	Priya Banerjee	1	9500.00
+12	emma.fischer@example.com	Emma Fischer	0	0.00
+14	oliver.smith@example.com	Oliver Smith	0	0.00
+15	fatima.mansoori@example.com	Fatima Mansoori	0	0.00
+16	daniel.johnson@example.com	Daniel Johnson	0	0.00
+17	yuki.tanaka@example.com	Yuki Tanaka	0	0.00
+18	mei.chen@example.com	Mei Chen	0	0.00
+19	sophia.rossi@example.com	Sophia Rossi	0	0.00
+20	noah.brown@example.com	Noah Brown	0	0.00
+listing_id	listing_title	total_bookings	average_rating	review_count	total_revenue	booking_count
+11	New York SoHo Loft	1	0.00	0	72600.00	1
+10	Dubai Marina High Floor Condo	1	5.00	2	59700.00	1
+13	Singapore Tanjong Pagar Suite	1	0.00	0	55200.00	1
+5	Goa Candolim Pool Villa	1	4.00	2	53200.00	1
+12	Tokyo Shinjuku Compact Studio	1	0.00	0	39000.00	1
+8	Paris Marais Design Studio	1	5.00	2	38400.00	1
+6	Berlin Prenzlauer Loft	1	5.00	2	35100.00	1
+7	Munich Schwabing Apartment	1	4.00	2	32700.00	1
+9	London Camden Townhouse Room	1	4.00	2	30700.00	1
+3	Mumbai Bandra Sea View Studio	2	5.00	2	23600.00	1
+4	Bangalore Indiranagar Workstay	2	5.00	2	23300.00	1
+1	Kolkata Park Street Heritage Apartment	2	5.00	2	15300.00	1
+2	Delhi Hauz Khas Private Room	2	4.00	2	9500.00	1
+14	Sydney Circular Quay Penthouse	1	0.00	0	0.00	0
+15	Toronto King West Condo	1	0.00	0	0.00	0
+16	Amsterdam Canal Heritage Home	1	0.00	0	0.00	0
+17	Rome Centro Boutique Room	0	0.00	0	0.00	0
+18	Barcelona Eixample Apartment Draft	0	0.00	0	0.00	0
+19	Bangkok Sukhumvit Serviced Room	0	0.00	0	0.00	0
+20	Bali Ubud Garden Villa	0	0.00	0	0.00	0
+booking_id	listing_title	booking_status	policy_name	refund_percentage	refund_cutoff_hours	payment_status	refund_id	refund_amount	refund_status	refund_reason
+16	Amsterdam Canal Heritage Home	cancelled	Early bird moderate	55.00	240	refunded	1	16000.00	processed	Guest cancelled before cutoff.
+16	Amsterdam Canal Heritage Home	cancelled	Early bird moderate	55.00	240	refunded	2	8000.00	processed	Cleaning fee reversal.
+16	Amsterdam Canal Heritage Home	cancelled	Early bird moderate	55.00	240	refunded	3	4000.00	approved	Service fee goodwill adjustment.
+16	Amsterdam Canal Heritage Home	cancelled	Early bird moderate	55.00	240	refunded	4	2000.00	requested	Additional bank charge review.
+17	Kolkata Park Street Heritage Apartment	cancelled	Flexible 24h	100.00	24	refunded	5	5000.00	processed	Host approved cancellation refund.
+17	Kolkata Park Street Heritage Apartment	cancelled	Flexible 24h	100.00	24	refunded	6	2500.00	approved	Guest service fee refund.
+17	Kolkata Park Street Heritage Apartment	cancelled	Flexible 24h	100.00	24	refunded	7	1200.00	requested	Late refund review.
+17	Kolkata Park Street Heritage Apartment	cancelled	Flexible 24h	100.00	24	refunded	8	900.00	rejected	Non-refundable portion retained.
+18	Delhi Hauz Khas Private Room	cancelled	Flexible 48h	100.00	48	refunded	9	3000.00	processed	Travel plan changed.
+18	Delhi Hauz Khas Private Room	cancelled	Flexible 48h	100.00	48	refunded	10	1800.00	approved	Partial guest fee refund.
+18	Delhi Hauz Khas Private Room	cancelled	Flexible 48h	100.00	48	refunded	11	1000.00	requested	Manual refund check.
+18	Delhi Hauz Khas Private Room	cancelled	Flexible 48h	100.00	48	refunded	12	700.00	rejected	Policy cutoff passed.
+19	Mumbai Bandra Sea View Studio	refunded	Moderate 72h	75.00	72	refunded	13	10000.00	processed	Listing unavailable after booking.
+19	Mumbai Bandra Sea View Studio	refunded	Moderate 72h	75.00	72	refunded	14	5000.00	processed	Remaining nightly refund.
+19	Mumbai Bandra Sea View Studio	refunded	Moderate 72h	75.00	72	refunded	15	2500.00	approved	Guest fee refund.
+19	Mumbai Bandra Sea View Studio	refunded	Moderate 72h	75.00	72	refunded	16	1100.00	requested	Currency adjustment.
+20	Bangalore Indiranagar Workstay	refunded	Moderate 5 days	70.00	120	refunded	17	9500.00	processed	Host cancelled due to maintenance.
+20	Bangalore Indiranagar Workstay	refunded	Moderate 5 days	70.00	120	refunded	18	6000.00	processed	Remaining accommodation refund.
+20	Bangalore Indiranagar Workstay	refunded	Moderate 5 days	70.00	120	refunded	19	2100.00	approved	Guest service fee refund.
+20	Bangalore Indiranagar Workstay	refunded	Moderate 5 days	70.00	120	refunded	20	850.00	requested	Payment processor difference.
+assigned_agent_user_id	support_agent_email	support_agent_name	open_tickets	in_progress_tickets	resolved_tickets	closed_tickets	total_assigned_tickets
+44	peter.support@example.com	Peter Support	3	0	4	3	10
+43	riya.support@example.com	Riya Support	1	3	4	2	10
+listing_id	listing_title	category_name	average_category_score	score_count
+1	Kolkata Park Street Heritage Apartment	Accuracy	4.00	2
+1	Kolkata Park Street Heritage Apartment	Check-in	5.00	2
+1	Kolkata Park Street Heritage Apartment	Cleanliness	3.00	2
+1	Kolkata Park Street Heritage Apartment	Communication	1.00	2
+1	Kolkata Park Street Heritage Apartment	Location	2.00	2
+2	Delhi Hauz Khas Private Room	Accuracy	5.00	2
+2	Delhi Hauz Khas Private Room	Check-in	1.00	2
+2	Delhi Hauz Khas Private Room	Cleanliness	4.00	2
+2	Delhi Hauz Khas Private Room	Communication	2.00	2
+2	Delhi Hauz Khas Private Room	Location	3.00	2
+3	Mumbai Bandra Sea View Studio	Accuracy	1.00	2
+3	Mumbai Bandra Sea View Studio	Check-in	2.00	2
+3	Mumbai Bandra Sea View Studio	Cleanliness	5.00	2
+3	Mumbai Bandra Sea View Studio	Communication	3.00	2
+3	Mumbai Bandra Sea View Studio	Location	4.00	2
+4	Bangalore Indiranagar Workstay	Accuracy	2.00	2
+4	Bangalore Indiranagar Workstay	Check-in	3.00	2
+4	Bangalore Indiranagar Workstay	Cleanliness	1.00	2
+4	Bangalore Indiranagar Workstay	Communication	4.00	2
+4	Bangalore Indiranagar Workstay	Location	5.00	2
+5	Goa Candolim Pool Villa	Accuracy	3.00	2
+5	Goa Candolim Pool Villa	Check-in	4.00	2
+5	Goa Candolim Pool Villa	Cleanliness	2.00	2
+5	Goa Candolim Pool Villa	Communication	5.00	2
+5	Goa Candolim Pool Villa	Location	1.00	2
+6	Berlin Prenzlauer Loft	Accuracy	4.00	2
+6	Berlin Prenzlauer Loft	Check-in	5.00	2
+6	Berlin Prenzlauer Loft	Cleanliness	3.00	2
+6	Berlin Prenzlauer Loft	Communication	1.00	2
+6	Berlin Prenzlauer Loft	Location	2.00	2
+7	Munich Schwabing Apartment	Accuracy	5.00	2
+7	Munich Schwabing Apartment	Check-in	1.00	2
+7	Munich Schwabing Apartment	Cleanliness	4.00	2
+7	Munich Schwabing Apartment	Communication	2.00	2
+7	Munich Schwabing Apartment	Location	3.00	2
+8	Paris Marais Design Studio	Accuracy	1.00	2
+8	Paris Marais Design Studio	Check-in	2.00	2
+8	Paris Marais Design Studio	Cleanliness	5.00	2
+8	Paris Marais Design Studio	Communication	3.00	2
+8	Paris Marais Design Studio	Location	4.00	2
+9	London Camden Townhouse Room	Accuracy	2.00	2
+9	London Camden Townhouse Room	Check-in	3.00	2
+9	London Camden Townhouse Room	Cleanliness	1.00	2
+9	London Camden Townhouse Room	Communication	4.00	2
+9	London Camden Townhouse Room	Location	5.00	2
+10	Dubai Marina High Floor Condo	Accuracy	3.00	2
+10	Dubai Marina High Floor Condo	Check-in	4.00	2
+10	Dubai Marina High Floor Condo	Cleanliness	2.00	2
+10	Dubai Marina High Floor Condo	Communication	5.00	2
+10	Dubai Marina High Floor Condo	Location	1.00	2
+listing_id	listing_title	city_name	country_name	calendar_date	custom_price	min_nights	max_nights
+1	Kolkata Park Street Heritage Apartment	Kolkata	India	2026-08-02	4950.00	1	30
+2	Delhi Hauz Khas Private Room	Delhi	India	2026-08-03	3080.00	1	30
+3	Mumbai Bandra Sea View Studio	Mumbai	India	2026-08-04	7700.00	1	30
+4	Bangalore Indiranagar Workstay	Bangalore	India	2026-08-05	5720.00	1	30
+5	Goa Candolim Pool Villa	Goa	India	2026-08-06	13200.00	2	14
+6	Berlin Prenzlauer Loft	Berlin	Germany	2026-08-07	11550.00	1	30
+8	Paris Marais Design Studio	Paris	France	2026-08-09	12650.00	1	30
+9	London Camden Townhouse Room	London	United Kingdom	2026-08-10	10120.00	1	30
+10	Dubai Marina High Floor Condo	Dubai	United Arab Emirates	2026-08-11	14850.00	1	30
+11	New York SoHo Loft	New York	United States	2026-08-12	18150.00	1	30
+12	Tokyo Shinjuku Compact Studio	Tokyo	Japan	2026-08-13	9680.00	1	30
+13	Singapore Tanjong Pagar Suite	Singapore	Singapore	2026-08-14	13750.00	1	30
+15	Toronto King West Condo	Toronto	Canada	2026-08-16	10450.00	1	30
+16	Amsterdam Canal Heritage Home	Amsterdam	Netherlands	2026-08-17	15950.00	1	30
+19	Bangkok Sukhumvit Serviced Room	Bangkok	Thailand	2026-08-20	6820.00	1	30
+20	Bali Ubud Garden Villa	Denpasar	Indonesia	2026-08-21	12100.00	2	14
+booking_id	listing_title	sender_email	sender_name	receiver_email	receiver_name	message_status	sent_at	message_body
+1	Kolkata Park Street Heritage Apartment	aarav.sharma@example.com	Aarav Sharma	anil.gupta.host@example.com	Anil Gupta	read	2026-01-08 18:00:00	Hi Anil, can we check in after 7 PM?
+1	Kolkata Park Street Heritage Apartment	anil.gupta.host@example.com	Anil Gupta	aarav.sharma@example.com	Aarav Sharma	read	2026-01-08 18:25:00	Yes, late check-in is fine. I will share smart lock details.
+2	Delhi Hauz Khas Private Room	priya.banerjee@example.com	Priya Banerjee	sunita.rao.host@example.com	Sunita Rao	read	2026-01-10 09:00:00	Is there space to keep two suitcases?
+2	Delhi Hauz Khas Private Room	sunita.rao.host@example.com	Sunita Rao	priya.banerjee@example.com	Priya Banerjee	read	2026-01-10 09:45:00	Yes, the wardrobe and under-bed space should be enough.
+3	Mumbai Bandra Sea View Studio	rohan.mehta@example.com	Rohan Mehta	imran.sheikh.host@example.com	Imran Sheikh	read	2026-02-01 12:00:00	Can you confirm Wi-Fi speed for video calls?
+3	Mumbai Bandra Sea View Studio	imran.sheikh.host@example.com	Imran Sheikh	rohan.mehta@example.com	Rohan Mehta	read	2026-02-01 12:12:00	The studio has a 200 Mbps fiber connection.
+4	Bangalore Indiranagar Workstay	ananya.iyer@example.com	Ananya Iyer	kavya.reddy.host@example.com	Kavya Reddy	sent	2026-02-10 15:00:00	Could I get an invoice for this work trip?
+5	Goa Candolim Pool Villa	kabir.khan@example.com	Kabir Khan	mario.fernandes.host@example.com	Mario Fernandes	read	2026-02-25 16:00:00	Do you provide extra towels for the pool?
+5	Goa Candolim Pool Villa	mario.fernandes.host@example.com	Mario Fernandes	kabir.khan@example.com	Kabir Khan	read	2026-02-25 16:10:00	Yes, extra towels are kept near the laundry area.
+6	Berlin Prenzlauer Loft	neha.das@example.com	Neha Das	hanna.schmidt.host@example.com	Hanna Schmidt	archived	2026-03-05 11:00:00	What is the nearest tram stop?
+7	Munich Schwabing Apartment	vivaan.kapoor@example.com	Vivaan Kapoor	thomas.bauer.host@example.com	Thomas Bauer	read	2026-03-28 10:00:00	We will arrive by train around noon.
+7	Munich Schwabing Apartment	thomas.bauer.host@example.com	Thomas Bauer	vivaan.kapoor@example.com	Vivaan Kapoor	read	2026-03-28 10:25:00	I can store luggage from 12:30 PM.
+8	Paris Marais Design Studio	meera.nair@example.com	Meera Nair	camille.martin.host@example.com	Camille Martin	read	2026-04-11 13:00:00	Is the building elevator working?
+8	Paris Marais Design Studio	camille.martin.host@example.com	Camille Martin	meera.nair@example.com	Meera Nair	read	2026-04-11 13:16:00	Yes, the elevator is working normally.
+9	London Camden Townhouse Room	arjun.sen@example.com	Arjun Sen	james.turner.host@example.com	James Turner	sent	2026-04-29 14:00:00	Can I leave my bag before check-in?
+10	Dubai Marina High Floor Condo	sara.wilson@example.com	Sara Wilson	layla.alfarsi.host@example.com	Layla Alfarsi	read	2026-05-12 17:00:00	Is parking available in the tower?
+10	Dubai Marina High Floor Condo	layla.alfarsi.host@example.com	Layla Alfarsi	sara.wilson@example.com	Sara Wilson	read	2026-05-12 17:30:00	Visitor parking can be arranged with your car plate number.
+16	Amsterdam Canal Heritage Home	daniel.johnson@example.com	Daniel Johnson	noor.ahmed.host@example.com	Noor Ahmed	read	2026-07-22 09:00:00	I need to cancel because of visa delays.
+19	Mumbai Bandra Sea View Studio	sophia.rossi@example.com	Sophia Rossi	imran.sheikh.host@example.com	Imran Sheikh	sent	2026-08-14 10:00:00	The refund email says processing. Can you confirm?
+20	Bangalore Indiranagar Workstay	noah.brown@example.com	Noah Brown	kavya.reddy.host@example.com	Kavya Reddy	read	2026-08-26 18:00:00	Thanks for helping with the maintenance cancellation.
+id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
+1	SIMPLE	b	NULL	ref	idx_bookings_listing_id,idx_bookings_check_in_date,idx_bookings_check_out_date,idx_bookings_listing_date_range	idx_bookings_listing_id	4	const	2	22.50	Using where
+id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
+1	SIMPLE	p	NULL	ref	idx_payments_booking_id,idx_payments_payment_status,idx_payments_booking_status	idx_payments_booking_id	4	const	1	25.00	Using where
+id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
+1	SIMPLE	m	NULL	range	idx_messages_booking_id,idx_messages_sent_at,idx_messages_booking_sent_at	idx_messages_booking_sent_at	9	NULL	2	100.00	Using index condition

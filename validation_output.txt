@@ -1,0 +1,272 @@
+table_name	row_count
+addresses	20
+amenities	20
+availability_calendar	20
+booking_room_guests	30
+bookings	20
+cancellation_policies	20
+cities	20
+countries	20
+guest_profiles	20
+host_payouts	20
+host_profiles	20
+house_rules	40
+identity_documents	44
+income_estimates	20
+listing_amenities	40
+listing_cancellation_policies	20
+listing_photos	20
+listings	20
+messages	20
+payment_methods	20
+payments	20
+platform_commissions	20
+property_types	20
+refunds	20
+review_categories	20
+review_scores	100
+reviews	20
+room_amenities	40
+rooms	20
+social_accounts	44
+social_connections	20
+social_review_visibility	20
+support_ticket_messages	40
+support_tickets	20
+user_profiles	44
+users	44
+role	status	user_count
+guest	active	19
+guest	inactive	1
+host	active	20
+admin	active	2
+support_agent	active	2
+listing_id	listing_title	host_display_name	host_full_name	city_name	country_name	property_type	base_price	status
+14	Sydney Circular Quay Penthouse	Liam Sydney Harbor Homes	Liam Connor	Sydney	Australia	Penthouse	21000.00	published
+15	Toronto King West Condo	Emily Toronto Condos	Emily Clark	Toronto	Canada	Condo	9500.00	published
+8	Paris Marais Design Studio	Camille Paris Studios	Camille Martin	Paris	France	Studio	11500.00	published
+6	Berlin Prenzlauer Loft	Hanna Berlin Apartments	Hanna Schmidt	Berlin	Germany	Loft	10500.00	published
+7	Munich Schwabing Apartment	Thomas Munich Guest Homes	Thomas Bauer	Munich	Germany	Apartment	9800.00	published
+4	Bangalore Indiranagar Workstay	Kavya Workstay Bangalore	Kavya Reddy	Bangalore	India	Serviced apartment	5200.00	published
+2	Delhi Hauz Khas Private Room	Sunita Delhi Rooms	Sunita Rao	Delhi	India	Private room	2800.00	published
+5	Goa Candolim Pool Villa	Mario Goa Villas	Mario Fernandes	Goa	India	Villa	12000.00	published
+1	Kolkata Park Street Heritage Apartment	Anil Kolkata Stays	Anil Gupta	Kolkata	India	Apartment	4500.00	published
+3	Mumbai Bandra Sea View Studio	Imran Mumbai Homes	Imran Sheikh	Mumbai	India	Studio	7000.00	published
+20	Bali Ubud Garden Villa	Made Bali Garden Villas	Made Wijaya	Denpasar	Indonesia	Villa	11000.00	published
+17	Rome Centro Boutique Room	Giulia Rome Rooms	Giulia Bianchi	Rome	Italy	Boutique hotel room	8700.00	paused
+12	Tokyo Shinjuku Compact Studio	Kenji Tokyo Homes	Kenji Sato	Tokyo	Japan	Studio	8800.00	published
+16	Amsterdam Canal Heritage Home	Noor Amsterdam Canals	Noor Ahmed	Amsterdam	Netherlands	Heritage home	14500.00	published
+13	Singapore Tanjong Pagar Suite	Siti Singapore Stays	Siti Rahman	Singapore	Singapore	Serviced apartment	12500.00	published
+18	Barcelona Eixample Apartment Draft	Diego Barcelona Homes	Diego Martinez	Barcelona	Spain	Apartment	9900.00	draft
+19	Bangkok Sukhumvit Serviced Room	Niran Bangkok Serviced Stays	Niran Chai	Bangkok	Thailand	Serviced apartment	6200.00	published
+10	Dubai Marina High Floor Condo	Layla Dubai Marina Stays	Layla Alfarsi	Dubai	United Arab Emirates	Condo	13500.00	published
+9	London Camden Townhouse Room	James London Lets	James Turner	London	United Kingdom	Townhouse	9200.00	published
+11	New York SoHo Loft	Olivia NYC Lofts	Olivia Carter	New York	United States	Loft	16500.00	published
+booking_id	guest_name	listing_title	check_in_date	check_out_date	number_of_guests	booking_status	total_amount
+1	Aarav Sharma	Kolkata Park Street Heritage Apartment	2026-01-10	2026-01-13	2	completed	15300.00
+2	Priya Banerjee	Delhi Hauz Khas Private Room	2026-01-12	2026-01-15	2	completed	9500.00
+3	Rohan Mehta	Mumbai Bandra Sea View Studio	2026-02-05	2026-02-08	2	completed	23600.00
+4	Ananya Iyer	Bangalore Indiranagar Workstay	2026-02-12	2026-02-16	2	completed	23300.00
+5	Kabir Khan	Goa Candolim Pool Villa	2026-03-01	2026-03-05	4	completed	53200.00
+6	Neha Das	Berlin Prenzlauer Loft	2026-03-10	2026-03-13	2	completed	35100.00
+7	Vivaan Kapoor	Munich Schwabing Apartment	2026-04-03	2026-04-06	3	completed	32700.00
+8	Meera Nair	Paris Marais Design Studio	2026-04-15	2026-04-18	2	completed	38400.00
+9	Arjun Sen	London Camden Townhouse Room	2026-05-02	2026-05-05	2	completed	30700.00
+10	Sara Wilson	Dubai Marina High Floor Condo	2026-05-18	2026-05-22	3	completed	59700.00
+11	Lukas Meyer	New York SoHo Loft	2026-06-05	2026-06-09	2	confirmed	72600.00
+12	Emma Fischer	Tokyo Shinjuku Compact Studio	2026-06-20	2026-06-24	2	confirmed	39000.00
+13	Claire Dubois	Singapore Tanjong Pagar Suite	2026-07-02	2026-07-06	2	confirmed	55200.00
+14	Oliver Smith	Sydney Circular Quay Penthouse	2026-07-15	2026-07-19	4	pending	92400.00
+15	Fatima Mansoori	Toronto King West Condo	2026-07-21	2026-07-24	2	pending	31500.00
+16	Daniel Johnson	Amsterdam Canal Heritage Home	2026-08-03	2026-08-07	2	cancelled	64000.00
+17	Yuki Tanaka	Kolkata Park Street Heritage Apartment	2026-08-10	2026-08-13	2	cancelled	15300.00
+18	Mei Chen	Delhi Hauz Khas Private Room	2026-08-12	2026-08-15	1	cancelled	9500.00
+19	Sophia Rossi	Mumbai Bandra Sea View Studio	2026-09-01	2026-09-04	2	refunded	23600.00
+20	Noah Brown	Bangalore Indiranagar Workstay	2026-09-08	2026-09-12	2	refunded	23300.00
+payment_id	booking_id	payer_name	amount	currency_code	method_type	provider_name	masked_account_number	payment_status	paid_at
+1	1	Aarav Sharma	15300.00	INR	credit_card	Razorpay	**** **** **** 1001	paid	2026-01-02 10:00:00
+2	2	Priya Banerjee	9500.00	INR	upi	Razorpay	UPI **** 1002	paid	2026-01-03 10:05:00
+3	3	Rohan Mehta	23600.00	INR	credit_card	Stripe	**** **** **** 1003	paid	2026-01-25 11:00:00
+4	4	Ananya Iyer	23300.00	INR	debit_card	Razorpay	**** **** **** 1004	paid	2026-02-02 11:10:00
+5	5	Kabir Khan	53200.00	INR	credit_card	Razorpay	**** **** **** 1005	paid	2026-02-20 11:20:00
+6	6	Neha Das	35100.00	INR	paypal	PayPal	paypal-1006	paid	2026-02-25 11:30:00
+7	7	Vivaan Kapoor	32700.00	INR	credit_card	Stripe	**** **** **** 1007	paid	2026-03-15 11:40:00
+8	8	Meera Nair	38400.00	INR	credit_card	Stripe	**** **** **** 1008	paid	2026-03-28 11:50:00
+9	9	Arjun Sen	30700.00	INR	upi	Razorpay	UPI **** 1009	paid	2026-04-14 12:00:00
+10	10	Sara Wilson	59700.00	INR	credit_card	Stripe	**** **** **** 1010	paid	2026-05-01 12:10:00
+11	11	Lukas Meyer	72600.00	INR	sepa_card	Stripe	**** **** **** 1011	paid	2026-05-20 12:20:00
+12	12	Emma Fischer	39000.00	INR	sepa_card	Stripe	**** **** **** 1012	pending	NULL
+13	13	Claire Dubois	55200.00	INR	credit_card	Stripe	**** **** **** 1013	paid	2026-06-10 12:30:00
+14	14	Oliver Smith	92400.00	INR	credit_card	Stripe	**** **** **** 1014	pending	NULL
+15	15	Fatima Mansoori	31500.00	INR	credit_card	Checkout	**** **** **** 1015	failed	NULL
+16	16	Daniel Johnson	64000.00	INR	credit_card	Stripe	**** **** **** 1016	refunded	2026-07-20 13:00:00
+17	17	Yuki Tanaka	15300.00	INR	credit_card	Stripe	**** **** **** 1017	refunded	2026-07-25 13:10:00
+18	18	Mei Chen	9500.00	INR	credit_card	Stripe	**** **** **** 1018	refunded	2026-07-26 13:20:00
+19	19	Sophia Rossi	23600.00	INR	credit_card	Stripe	**** **** **** 1019	refunded	2026-08-10 13:30:00
+20	20	Noah Brown	23300.00	INR	credit_card	Stripe	**** **** **** 1020	refunded	2026-08-20 13:40:00
+refund_id	booking_id	payment_id	booking_status	payment_status	refund_amount	refund_status	refund_reason
+1	16	16	cancelled	refunded	16000.00	processed	Guest cancelled before cutoff.
+2	16	16	cancelled	refunded	8000.00	processed	Cleaning fee reversal.
+3	16	16	cancelled	refunded	4000.00	approved	Service fee goodwill adjustment.
+4	16	16	cancelled	refunded	2000.00	requested	Additional bank charge review.
+5	17	17	cancelled	refunded	5000.00	processed	Host approved cancellation refund.
+6	17	17	cancelled	refunded	2500.00	approved	Guest service fee refund.
+7	17	17	cancelled	refunded	1200.00	requested	Late refund review.
+8	17	17	cancelled	refunded	900.00	rejected	Non-refundable portion retained.
+9	18	18	cancelled	refunded	3000.00	processed	Travel plan changed.
+10	18	18	cancelled	refunded	1800.00	approved	Partial guest fee refund.
+11	18	18	cancelled	refunded	1000.00	requested	Manual refund check.
+12	18	18	cancelled	refunded	700.00	rejected	Policy cutoff passed.
+13	19	19	refunded	refunded	10000.00	processed	Listing unavailable after booking.
+14	19	19	refunded	refunded	5000.00	processed	Remaining nightly refund.
+15	19	19	refunded	refunded	2500.00	approved	Guest fee refund.
+16	19	19	refunded	refunded	1100.00	requested	Currency adjustment.
+17	20	20	refunded	refunded	9500.00	processed	Host cancelled due to maintenance.
+18	20	20	refunded	refunded	6000.00	processed	Remaining accommodation refund.
+19	20	20	refunded	refunded	2100.00	approved	Guest service fee refund.
+20	20	20	refunded	refunded	850.00	requested	Payment processor difference.
+payout_id	booking_id	host_name	payout_amount	payout_status	payout_reference	released_at
+1	1	Anil Gupta	12960.00	released	PAYOUT-2026-0001	2026-01-15 00:00:00
+2	2	Sunita Rao	8064.00	released	PAYOUT-2026-0002	2026-01-17 00:00:00
+3	3	Imran Sheikh	20160.00	released	PAYOUT-2026-0003	2026-02-10 00:00:00
+4	4	Kavya Reddy	19968.00	released	PAYOUT-2026-0004	2026-02-18 00:00:00
+5	5	Mario Fernandes	46080.00	released	PAYOUT-2026-0005	2026-03-07 00:00:00
+6	6	Hanna Schmidt	30240.00	released	PAYOUT-2026-0006	2026-03-15 00:00:00
+7	7	Thomas Bauer	28224.00	released	PAYOUT-2026-0007	2026-04-08 00:00:00
+8	8	Camille Martin	33120.00	released	PAYOUT-2026-0008	2026-04-20 00:00:00
+9	9	James Turner	26496.00	released	PAYOUT-2026-0009	2026-05-07 00:00:00
+10	10	Layla Alfarsi	51840.00	released	PAYOUT-2026-0010	2026-05-24 00:00:00
+11	11	Olivia Carter	63360.00	pending	PAYOUT-2026-0011	NULL
+12	12	Kenji Sato	33792.00	pending	PAYOUT-2026-0012	NULL
+13	13	Siti Rahman	48000.00	pending	PAYOUT-2026-0013	NULL
+14	14	Liam Connor	80640.00	pending	PAYOUT-2026-0014	NULL
+15	15	Emily Clark	27360.00	pending	PAYOUT-2026-0015	NULL
+16	16	Noor Ahmed	55680.00	failed	PAYOUT-2026-0016	NULL
+17	17	Anil Gupta	12960.00	failed	PAYOUT-2026-0017	NULL
+18	18	Sunita Rao	8064.00	failed	PAYOUT-2026-0018	NULL
+19	19	Imran Sheikh	20160.00	failed	PAYOUT-2026-0019	NULL
+20	20	Kavya Reddy	19968.00	failed	PAYOUT-2026-0020	NULL
+review_id	reviewer_name	reviewee_host_name	listing_title	rating	review_title	review_text
+1	Aarav Sharma	Anil Gupta	Kolkata Park Street Heritage Apartment	5	Great Kolkata base	The apartment was central, clean, and the host gave useful local tips.
+2	Priya Banerjee	Sunita Rao	Delhi Hauz Khas Private Room	4	Comfortable Delhi room	Good location near Hauz Khas and easy communication with the host.
+3	Rohan Mehta	Imran Sheikh	Mumbai Bandra Sea View Studio	5	Excellent Mumbai studio	Sea view and Wi-Fi were both excellent for a short work stay.
+4	Ananya Iyer	Kavya Reddy	Bangalore Indiranagar Workstay	5	Perfect for remote work	Workspace, cleaning, and neighborhood access were all strong.
+5	Kabir Khan	Mario Fernandes	Goa Candolim Pool Villa	4	Family Goa trip	Pool villa worked well for the family and beach access was convenient.
+6	Neha Das	Hanna Schmidt	Berlin Prenzlauer Loft	5	Stylish Berlin loft	Bright apartment with very responsive hosting.
+7	Vivaan Kapoor	Thomas Bauer	Munich Schwabing Apartment	4	Good Munich stay	Comfortable apartment and reliable check-in instructions.
+8	Meera Nair	Camille Martin	Paris Marais Design Studio	5	Paris studio gem	Small but beautifully designed and close to museums.
+9	Arjun Sen	James Turner	London Camden Townhouse Room	4	Camden weekend	The room was simple, clean, and close to markets.
+10	Sara Wilson	Layla Alfarsi	Dubai Marina High Floor Condo	5	Dubai skyline stay	Beautiful view, smooth building access, and strong amenities.
+11	Priya Banerjee	Anil Gupta	Kolkata Park Street Heritage Apartment	5	Helpful host	The host responded quickly and made our group feel welcome.
+12	Rohan Mehta	Sunita Rao	Delhi Hauz Khas Private Room	4	Easy check-in	Instructions were clear and the room matched the photos.
+13	Ananya Iyer	Imran Sheikh	Mumbai Bandra Sea View Studio	5	Great for business travel	Quiet, clean, and well connected to Bandra.
+14	Kabir Khan	Kavya Reddy	Bangalore Indiranagar Workstay	5	Very professional host	Kavya checked in during the stay and resolved a small Wi-Fi question quickly.
+15	Neha Das	Mario Fernandes	Goa Candolim Pool Villa	4	Relaxed villa stay	Great pool and helpful suggestions for local food.
+16	Vivaan Kapoor	Hanna Schmidt	Berlin Prenzlauer Loft	5	Loved the neighborhood	Good public transport and a stylish apartment.
+17	Meera Nair	Thomas Bauer	Munich Schwabing Apartment	4	Clean and practical	Good kitchen setup and enough space for three guests.
+18	Arjun Sen	Camille Martin	Paris Marais Design Studio	5	Beautiful details	The studio had thoughtful design details and felt secure.
+19	Sara Wilson	James Turner	London Camden Townhouse Room	4	Good value London room	Good value for the location and easy access to the Tube.
+20	Lukas Meyer	Layla Alfarsi	Dubai Marina High Floor Condo	5	Excellent building amenities	The gym and marina location made the stay memorable.
+support_ticket_id	booking_id	created_by_user	assigned_support_agent	priority	ticket_status	subject	created_at
+14	14	Oliver Smith	Peter Support	urgent	open	Large payment authorization	2026-07-01 10:00:00
+19	19	Sophia Rossi	Riya Support	urgent	in_progress	Listing unavailable refund	2026-08-14 10:05:00
+20	20	Noah Brown	Peter Support	urgent	resolved	Maintenance cancellation refund	2026-08-25 09:20:00
+11	11	Lukas Meyer	Riya Support	high	open	Payment confirmation	2026-05-21 10:00:00
+15	15	Fatima Mansoori	Riya Support	high	in_progress	Failed payment retry	2026-07-11 10:00:00
+16	16	Daniel Johnson	Peter Support	high	resolved	Visa delay cancellation	2026-07-22 09:05:00
+2	2	Priya Banerjee	Peter Support	medium	closed	Luggage space confirmation	2026-01-10 09:15:00
+3	3	Rohan Mehta	Riya Support	medium	resolved	Wi-Fi speed evidence	2026-02-01 12:15:00
+6	6	Neha Das	Peter Support	medium	closed	Transit guidance	2026-03-05 11:05:00
+7	7	Vivaan Kapoor	Riya Support	medium	resolved	Luggage drop request	2026-03-28 10:10:00
+9	9	Arjun Sen	Riya Support	medium	in_progress	Bag drop follow-up	2026-04-29 14:10:00
+10	10	Sara Wilson	Peter Support	medium	resolved	Parking arrangement	2026-05-12 17:15:00
+12	12	Emma Fischer	Peter Support	medium	open	Pending payment	2026-06-01 10:00:00
+17	17	Yuki Tanaka	Riya Support	medium	closed	Kolkata cancellation	2026-07-28 09:20:00
+18	18	Mei Chen	Peter Support	medium	resolved	Delhi refund question	2026-07-29 09:20:00
+1	1	Aarav Sharma	Riya Support	low	closed	Late check-in question	2026-01-08 18:10:00
+4	4	Ananya Iyer	Peter Support	low	open	Invoice request	2026-02-10 15:10:00
+5	5	Kabir Khan	Riya Support	low	resolved	Pool towel request	2026-02-25 16:05:00
+8	8	Meera Nair	Peter Support	low	closed	Elevator confirmation	2026-04-11 13:05:00
+13	13	Claire Dubois	Riya Support	low	resolved	Arrival time update	2026-06-20 10:00:00
+message_id	sender_name	recipient_name	booking_id	booking_status	message_status	sent_at	message_body
+1	Aarav Sharma	Anil Gupta	1	completed	read	2026-01-08 18:00:00	Hi Anil, can we check in after 7 PM?
+2	Anil Gupta	Aarav Sharma	1	completed	read	2026-01-08 18:25:00	Yes, late check-in is fine. I will share smart lock details.
+3	Priya Banerjee	Sunita Rao	2	completed	read	2026-01-10 09:00:00	Is there space to keep two suitcases?
+4	Sunita Rao	Priya Banerjee	2	completed	read	2026-01-10 09:45:00	Yes, the wardrobe and under-bed space should be enough.
+5	Rohan Mehta	Imran Sheikh	3	completed	read	2026-02-01 12:00:00	Can you confirm Wi-Fi speed for video calls?
+6	Imran Sheikh	Rohan Mehta	3	completed	read	2026-02-01 12:12:00	The studio has a 200 Mbps fiber connection.
+7	Ananya Iyer	Kavya Reddy	4	completed	sent	2026-02-10 15:00:00	Could I get an invoice for this work trip?
+8	Kabir Khan	Mario Fernandes	5	completed	read	2026-02-25 16:00:00	Do you provide extra towels for the pool?
+9	Mario Fernandes	Kabir Khan	5	completed	read	2026-02-25 16:10:00	Yes, extra towels are kept near the laundry area.
+10	Neha Das	Hanna Schmidt	6	completed	archived	2026-03-05 11:00:00	What is the nearest tram stop?
+11	Vivaan Kapoor	Thomas Bauer	7	completed	read	2026-03-28 10:00:00	We will arrive by train around noon.
+12	Thomas Bauer	Vivaan Kapoor	7	completed	read	2026-03-28 10:25:00	I can store luggage from 12:30 PM.
+13	Meera Nair	Camille Martin	8	completed	read	2026-04-11 13:00:00	Is the building elevator working?
+14	Camille Martin	Meera Nair	8	completed	read	2026-04-11 13:16:00	Yes, the elevator is working normally.
+15	Arjun Sen	James Turner	9	completed	sent	2026-04-29 14:00:00	Can I leave my bag before check-in?
+16	Sara Wilson	Layla Alfarsi	10	completed	read	2026-05-12 17:00:00	Is parking available in the tower?
+17	Layla Alfarsi	Sara Wilson	10	completed	read	2026-05-12 17:30:00	Visitor parking can be arranged with your car plate number.
+18	Daniel Johnson	Noor Ahmed	16	cancelled	read	2026-07-22 09:00:00	I need to cancel because of visa delays.
+19	Sophia Rossi	Imran Sheikh	19	refunded	sent	2026-08-14 10:00:00	The refund email says processing. Can you confirm?
+20	Noah Brown	Kavya Reddy	20	refunded	read	2026-08-26 18:00:00	Thanks for helping with the maintenance cancellation.
+listing_id	listing_title	calendar_date	is_available	custom_price	min_nights	max_nights
+1	Kolkata Park Street Heritage Apartment	2026-08-02	1	4950.00	1	30
+2	Delhi Hauz Khas Private Room	2026-08-03	1	3080.00	1	30
+3	Mumbai Bandra Sea View Studio	2026-08-04	1	7700.00	1	30
+4	Bangalore Indiranagar Workstay	2026-08-05	1	5720.00	1	30
+5	Goa Candolim Pool Villa	2026-08-06	1	13200.00	2	14
+6	Berlin Prenzlauer Loft	2026-08-07	1	11550.00	1	30
+7	Munich Schwabing Apartment	2026-08-08	0	10780.00	1	30
+8	Paris Marais Design Studio	2026-08-09	1	12650.00	1	30
+9	London Camden Townhouse Room	2026-08-10	1	10120.00	1	30
+10	Dubai Marina High Floor Condo	2026-08-11	1	14850.00	1	30
+11	New York SoHo Loft	2026-08-12	1	18150.00	1	30
+12	Tokyo Shinjuku Compact Studio	2026-08-13	1	9680.00	1	30
+13	Singapore Tanjong Pagar Suite	2026-08-14	1	13750.00	1	30
+14	Sydney Circular Quay Penthouse	2026-08-15	0	23100.00	2	14
+15	Toronto King West Condo	2026-08-16	1	10450.00	1	30
+16	Amsterdam Canal Heritage Home	2026-08-17	1	15950.00	1	30
+19	Bangkok Sukhumvit Serviced Room	2026-08-20	1	6820.00	1	30
+20	Bali Ubud Garden Villa	2026-08-21	1	12100.00	2	14
+income_estimate_id	host_name	listing_title	estimate_period_start	estimate_period_end	projected_occupancy_rate	projected_booked_nights	projected_income	model_version
+1	Anil Gupta	Kolkata Park Street Heritage Apartment	2026-10-01	2026-10-31	56.00	13	58500.00	phase2-demo-v1
+8	Camille Martin	Paris Marais Design Studio	2026-10-01	2026-10-31	63.00	12	138000.00	phase2-demo-v1
+18	Diego Martinez	Barcelona Eixample Apartment Draft	2026-10-01	2026-10-31	63.00	14	138600.00	phase2-demo-v1
+15	Emily Clark	Toronto King West Condo	2026-10-01	2026-10-31	60.00	19	180500.00	phase2-demo-v1
+17	Giulia Bianchi	Rome Centro Boutique Room	2026-10-01	2026-10-31	62.00	13	113100.00	phase2-demo-v1
+6	Hanna Schmidt	Berlin Prenzlauer Loft	2026-10-01	2026-10-31	61.00	18	189000.00	phase2-demo-v1
+3	Imran Sheikh	Mumbai Bandra Sea View Studio	2026-10-01	2026-10-31	58.00	15	105000.00	phase2-demo-v1
+9	James Turner	London Camden Townhouse Room	2026-10-01	2026-10-31	64.00	13	119600.00	phase2-demo-v1
+4	Kavya Reddy	Bangalore Indiranagar Workstay	2026-10-01	2026-10-31	59.00	16	83200.00	phase2-demo-v1
+12	Kenji Sato	Tokyo Shinjuku Compact Studio	2026-10-01	2026-10-31	57.00	16	140800.00	phase2-demo-v1
+10	Layla Alfarsi	Dubai Marina High Floor Condo	2026-10-01	2026-10-31	55.00	14	189000.00	phase2-demo-v1
+14	Liam Connor	Sydney Circular Quay Penthouse	2026-10-01	2026-10-31	59.00	18	378000.00	phase2-demo-v1
+20	Made Wijaya	Bali Ubud Garden Villa	2026-10-01	2026-10-31	55.00	16	176000.00	phase2-demo-v1
+5	Mario Fernandes	Goa Candolim Pool Villa	2026-10-01	2026-10-31	60.00	17	204000.00	phase2-demo-v1
+19	Niran Chai	Bangkok Sukhumvit Serviced Room	2026-10-01	2026-10-31	64.00	15	93000.00	phase2-demo-v1
+16	Noor Ahmed	Amsterdam Canal Heritage Home	2026-10-01	2026-10-31	61.00	12	174000.00	phase2-demo-v1
+11	Olivia Carter	New York SoHo Loft	2026-10-01	2026-10-31	56.00	15	247500.00	phase2-demo-v1
+13	Siti Rahman	Singapore Tanjong Pagar Suite	2026-10-01	2026-10-31	58.00	17	212500.00	phase2-demo-v1
+2	Sunita Rao	Delhi Hauz Khas Private Room	2026-10-01	2026-10-31	57.00	14	39200.00	phase2-demo-v1
+7	Thomas Bauer	Munich Schwabing Apartment	2026-10-01	2026-10-31	62.00	19	186200.00	phase2-demo-v1
+commission_id	booking_id	listing_title	total_booking_amount	guest_commission_rate	host_commission_rate	guest_commission_amount	host_commission_amount	calculated_at
+1	1	Kolkata Park Street Heritage Apartment	15300.00	12.00	4.00	1800.00	540.00	2026-07-01 01:00:07
+2	2	Delhi Hauz Khas Private Room	9500.00	12.00	4.00	1100.00	336.00	2026-07-01 01:00:07
+3	3	Mumbai Bandra Sea View Studio	23600.00	12.00	4.00	2600.00	840.00	2026-07-01 01:00:07
+4	4	Bangalore Indiranagar Workstay	23300.00	12.00	4.00	2500.00	832.00	2026-07-01 01:00:07
+5	5	Goa Candolim Pool Villa	53200.00	12.00	4.00	5200.00	1920.00	2026-07-01 01:00:07
+6	6	Berlin Prenzlauer Loft	35100.00	12.00	4.00	3600.00	1260.00	2026-07-01 01:00:07
+7	7	Munich Schwabing Apartment	32700.00	12.00	4.00	3300.00	1176.00	2026-07-01 01:00:07
+8	8	Paris Marais Design Studio	38400.00	12.00	4.00	3900.00	1380.00	2026-07-01 01:00:07
+9	9	London Camden Townhouse Room	30700.00	12.00	4.00	3100.00	1104.00	2026-07-01 01:00:07
+10	10	Dubai Marina High Floor Condo	59700.00	12.00	4.00	5700.00	2160.00	2026-07-01 01:00:07
+11	11	New York SoHo Loft	72600.00	12.00	4.00	6600.00	2640.00	2026-07-01 01:00:07
+12	12	Tokyo Shinjuku Compact Studio	39000.00	12.00	4.00	3800.00	1408.00	2026-07-01 01:00:07
+13	13	Singapore Tanjong Pagar Suite	55200.00	12.00	4.00	5200.00	2000.00	2026-07-01 01:00:07
+14	14	Sydney Circular Quay Penthouse	92400.00	12.00	4.00	8400.00	3360.00	2026-07-01 01:00:07
+15	15	Toronto King West Condo	31500.00	12.00	4.00	3000.00	1140.00	2026-07-01 01:00:07
+16	16	Amsterdam Canal Heritage Home	64000.00	12.00	4.00	6000.00	2320.00	2026-07-01 01:00:07
+17	17	Kolkata Park Street Heritage Apartment	15300.00	12.00	4.00	1800.00	540.00	2026-07-01 01:00:07
+18	18	Delhi Hauz Khas Private Room	9500.00	12.00	4.00	1100.00	336.00	2026-07-01 01:00:07
+19	19	Mumbai Bandra Sea View Studio	23600.00	12.00	4.00	2600.00	840.00	2026-07-01 01:00:07
+20	20	Bangalore Indiranagar Workstay	23300.00	12.00	4.00	2500.00	832.00	2026-07-01 01:00:07
